@@ -3,6 +3,6 @@
 [[ ~/.profile ]] && source ~/.profile
 [[ ~/.bash_aliases ]] && source ~/.bash_aliases
 
-set -o emacs
+set -o vi
 export EDITOR=vim
 
