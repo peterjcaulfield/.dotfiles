@@ -3,7 +3,9 @@
 -- close apps
 -- layouts
 
-local application = require "mjolnir.application" local hotkey = require "mjolnir.hotkey" local window = require "mjolnir.window"
+local application = require "mjolnir.application" 
+local hotkey = require "mjolnir.hotkey" 
+local window = require "mjolnir.window"
 local fnutils = require "mjolnir.fnutils"
 local grid = require "mjolnir.bg.grid"
 
