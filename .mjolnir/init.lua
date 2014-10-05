@@ -9,9 +9,9 @@ local window = require "mjolnir.window"
 local fnutils = require "mjolnir.fnutils"
 local grid = require "mjolnir.bg.grid"
 
-local mash = {"alt", "cmd"}
-local mash2 = {"ctrl", "cmd"}
-local mash3 = {"ctrl", "alt", "cmd"}
+local mash = {"alt"}
+local mash2 = {"ctrl", "alt"}
+local mash3 = {"ctrl", "cmd"}
 
 -- change default grid dimensions (needs to have diff defaults depending on screen res eventually)
 grid.GRIDHEIGHT = 4
