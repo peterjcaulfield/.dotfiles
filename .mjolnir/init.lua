@@ -12,6 +12,9 @@ local grid = require "mjolnir.bg.grid"
 local mash = {"alt", "cmd"}
 local mashshift = {"alt", "cmd", "shift"}
 
+-- change default grid dimensions (needs to have diff defaults depending on screen res eventually)
+grid.GRIDHEIGHT = 4
+grid.GRIDWIDTH = 9
 
 
 hotkey.bind(mash, "R", function() mjolnir.reload(); mjolnir.openconsole() end)
