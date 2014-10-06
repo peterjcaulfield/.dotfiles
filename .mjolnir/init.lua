@@ -20,6 +20,7 @@ grid.GRIDWIDTH = 9
 
 hotkey.bind(mash, "R", function() mjolnir.reload(); mjolnir.openconsole() end)
 
+hotkey.bind(mash, "X", function() window.focusedwindow():close() end)
 hotkey.bind(mash, ';', function() grid.snap(window.focusedwindow()) end)
 hotkey.bind(mash, "'", function() fnutils.map(window.visiblewindows(), grid.snap) end)
 
@@ -34,7 +35,7 @@ hotkey.bind(mash3, 'J', function() window.focusedwindow():focuswindow_south() en
 hotkey.bind(mash, 'M', grid.maximize_window)
 
 hotkey.bind(mash, 'N', grid.pushwindow_nextscreen)
---hotkey.bind(mash, 'P', grid.pushwindow_prevscreen)
+hotkey.bind(mash, 'B', grid.pushwindow_prevscreen)
 
 hotkey.bind(mash, 'J', grid.pushwindow_down)
 hotkey.bind(mash, 'K', grid.pushwindow_up)
