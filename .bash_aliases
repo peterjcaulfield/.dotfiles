@@ -1,3 +1,4 @@
+alias serve="php -S localhost:8000 2> /dev/null &"
 alias art="php artisan"
 alias t="vendor/bin/phpunit"
 alias ls="ls -GF" # make ls give coloured output
